@@ -1,0 +1,12 @@
+endpoint: "http://example.com/redmine/mail_handler"
+
+key: "AAAAAAAAAAAAAAAAAAAA"
+allow_override: "project,status,tracker,category,priority"
+unknown_user: ""
+no_permission_check: ""
+tracker: "bug"
+
+tracker_aliases:
+  bug: "バグ"
+  feature: "機能"
+  support: "サポート"
